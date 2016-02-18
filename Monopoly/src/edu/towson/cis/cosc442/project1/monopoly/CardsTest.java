@@ -17,6 +17,7 @@ public class CardsTest extends TestCase {
         chanceCard = new MoneyCard("Lose 50 dollars", -50, Card.TYPE_CHANCE);
         gameMaster.getGameBoard().addCard(ccCard);
     }
+    //ADDING SOMETHING TO SEE IF GIT WILL LET ME COMMIT
     
     public void testCardType() {
         gameMaster.drawCCCard();
